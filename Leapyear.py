@@ -1,0 +1,21 @@
+"""
+   * Author - Avinash patil
+   * Date -  21-1-2022
+   * Time -  11.00 AM
+   * Title - Leap Year
+"""
+
+
+year = int(input("entet the year to check is leap year or not : "))
+
+if (year % 400 == 0) and (year % 100 == 0):
+    print("{0} is a leap year".format(year))
+
+elif (year % 4 ==0) and (year % 100 != 0):
+    print("{0} is a leap year".format(year))
+
+else:
+    print("{0} is not a leap year".format(year))
+
+
+
